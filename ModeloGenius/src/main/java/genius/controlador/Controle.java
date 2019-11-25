@@ -1,11 +1,8 @@
 package genius.controlador;
 
-import genius.visao.MainScreen;
 import genius.modelo.Sequencia;
-import java.awt.Color;
 import java.util.ArrayList;
-import java.awt.event.ActionListener;
-import javax.swing.Timer;
+
 
 public class Controle {
 
@@ -52,12 +49,5 @@ public class Controle {
     public void setNivel(){
         this.nivel=1;
     }
-    //public void cresceNivel(){
-     //   this.nivel++;
-   // }
-    public void imprimeSequencia(){
-        for(int i =0;i<8;i++){
-            System.out.println(seq.getSequencia().get(i));
-        }
-    }
+   
 }
